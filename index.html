@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css" />
+    
+
+    <title>Sistem Pakar Deteksi Jenis Kulit Wajah</title>
+</head>
+<body>
+    <div class="Profile">
+        <img src="images/profile.png" alt="" style="border-radius: 50%; height: auto;display: block;margin-left: auto;margin-right: auto;">
+    </div>
+    <div class="jdl">
+        <h1>Sistem Pakar Deteksi Jenis Kulit Wajah</h1>
+    </div>
+    <div class="form">
+        <div class="g01">
+            <p>Pilih sesuai dengan kondisi kulit anda !!</p>
+        </div>
+    </div>
+    <div class="form">
+        <form action="" class="formSaya" name="gejala-form">
+            <ol>
+                <div class="g01">
+                <div class="lbl"><label for=""><li>Kulit tidak berminyak</li></label></div>
+                <div class="inpt">
+                    <input type="radio" class="rad" name="G01" value="0">Tidak tahu
+                    <input type="radio" class="rad" name="G01" value="0.2">Tidak Yakin
+                    <input type="radio" class="rad" name="G01" value="0.4"> Agak Yakin
+                    <input type="radio" class="rad" name="G01" value="0.6">Cukup Yakin
+                    <input type="radio" class="rad" name="G01" value="0.8">Yakin
+                    <input type="radio" class="rad" name="G01" value="1">Sangat Yakin
+                </div>
+
+                <div class="lbl"><label for=""><li>Kulit terasa segar dan halus</li></label></div>
+                <div class="inpt">
+                <input type="radio" class="rad" name="G02" value="0">Tidak tahu
+                <input type="radio" class="rad" name="G02" value="0.2">Tidak Yakin
+                <input type="radio" class="rad" name="G02" value="0.4"> Agak Yakin
+                <input type="radio" class="rad" name="G02" value="0.6">Cukup Yakin
+                <input type="radio" class="rad" name="G02" value="0.8">Yakin
+                <input type="radio" class="rad" name="G02" value="1">Sangat Yakin
+                </div>
+
+                <div class="lbl"><label for=""><li>Mudah menempelnya produk kosmetik pada kulit</li></label></div>
+                <div class="inpt">
+                <input type="radio" class="rad" name="G03" value="0">Tidak tahu
+                <input type="radio" class="rad" name="G03" value="0.2">Tidak Yakin
+                <input type="radio" class="rad" name="G03" value="0.4"> Agak Yakin
+                <input type="radio" class="rad" name="G03" value="0.6">Cukup Yakin
+                <input type="radio" class="rad" name="G03" value="0.8">Yakin
+                <input type="radio" class="rad" name="G03" value="1">Sangat Yakin
+                </div>
+
+                <div class="lbl"><label for=""><li>Kulit terlihat sehat</li></label></div>
+                <div class="inpt">
+                <input type="radio" class="rad" name="G04" value="0">Tidak tahu
+                <input type="radio" class="rad" name="G04" value="0.2">Tidak Yakin
+                <input type="radio" class="rad" name="G04" value="0.4"> Agak Yakin
+                <input type="radio" class="rad" name="G04" value="0.6">Cukup Yakin
+                <input type="radio" class="rad" name="G04" value="0.8">Yakin
+                <input type="radio" class="rad" name="G04" value="1">Sangat Yakin
+                </div>
+
+                <div class="lbl"><label for=""><li>Mudah dalam memilih kosmetik</li></label></div>
+                <div class="inpt">
+                <input type="radio" class="rad" name="G05" value="0">Tidak tahu
+                <input type="radio" class="rad" name="G05" value="0.2">Tidak Yakin
+                <input type="radio" class="rad" name="G05" value="0.4"> Agak Yakin
+                <input type="radio" class="rad" name="G05" value="0.6">Cukup Yakin
+                <input type="radio" class="rad" name="G05" value="0.8">Yakin
+                <input type="radio" class="rad" name="G05" value="1">Sangat Yakin
+                </div>
+
+                <div class="lbl"><label for=""><li>Kulit tidak berjerawat</li></label></div>
+                <div class="inpt">
+                <input type="radio" class="rad" name="G06" value="0">Tidak tahu
+                <input type="radio" class="rad" name="G06" value="0.2">Tidak Yakin
+                <input type="radio" class="rad" name="G06" value="0.4"> Agak Yakin
+                <input type="radio" class="rad" name="G06" value="0.6">Cukup Yakin
+                <input type="radio" class="rad" name="G06" value="0.8">Yakin
+                <input type="radio" class="rad" name="G06" value="1">Sangat Yakin
+                </div>
+
+                <div class="lbl"><label for=""><li>Pori pori yang terlihat besar terutama pada hidung, dagu, dan pipi</li></label></div>
+                <div class="inpt">
+                <input type="radio" class="rad" name="G07" value="0">Tidak tahu
+                <input type="radio" class="rad" name="G07" value="0.2">Tidak Yakin
+                <input type="radio" class="rad" name="G07" value="0.4"> Agak Yakin
+                <input type="radio" class="rad" name="G07" value="0.6">Cukup Yakin
+                <input type="radio" class="rad" name="G07" value="0.8">Yakin
+                <input type="radio" class="rad" name="G07" value="1">Sangat Yakin
+                </div>
+
+                <div class="lbl"><label for=""><li>Wajah terlihat mengkilat</li></label></div>
+                <div class="inpt">
+                <input type="radio" class="rad" name="G08" value="0">Tidak tahu
+                <input type="radio" class="rad" name="G08" value="0.2">Tidak Yakin
+                <input type="radio" class="rad" name="G08" value="0.4"> Agak Yakin
+                <input type="radio" class="rad" name="G08" value="0.6">Cukup Yakin
+                <input type="radio" class="rad" name="G08" value="0.8">Yakin
+                <input type="radio" class="rad" name="G08" value="1">Sangat Yakin
+                </div>
+
+                <div class="lbl"><label for=""><li>Sering muncul jerawat</li></label></div>
+                <div class="inpt">
+                <input type="radio" class="rad" name="G09" value="0">Tidak tahu
+                <input type="radio" class="rad" name="G09" value="0.2">Tidak Yakin
+                <input type="radio" class="rad" name="G09" value="0.4"> Agak Yakin
+                <input type="radio" class="rad" name="G09" value="0.6">Cukup Yakin
+                <input type="radio" class="rad" name="G09" value="0.8">Yakin
+                <input type="radio" class="rad" name="G09" value="1">Sangat Yakin
+                </div>
+
+                <div class="lbl"><label for=""><li>Terlihat sangat kering</li></label></div>
+                <div class="inpt">
+                <input type="radio" class="rad" name="G10" value="0">Tidak tahu
+                <input type="radio" class="rad" name="G10" value="0.2">Tidak Yakin
+                <input type="radio" class="rad" name="G10" value="0.4"> Agak Yakin
+                <input type="radio" class="rad" name="G10" value="0.6">Cukup Yakin
+                <input type="radio" class="rad" name="G10" value="0.8">Yakin
+                <input type="radio" class="rad" name="G10" value="1">Sangat Yakin
+                </div>
+
+                <div class="lbl"><label for=""><li>Pori pori halus</li></label></div>
+                <div class="inpt">
+                <input type="radio" class="rad" name="G11" value="0">Tidak tahu
+                <input type="radio" class="rad" name="G11" value="0.2">Tidak Yakin
+                <input type="radio" class="rad" name="G11" value="0.4"> Agak Yakin
+                <input type="radio" class="rad" name="G11" value="0.6">Cukup Yakin
+                <input type="radio" class="rad" name="G11" value="0.8">Yakin
+                <input type="radio" class="rad" name="G11" value="1">Sangat Yakin
+                </div>
+
+                <div class="lbl"><label for=""><li>Kulit wajah memiliki tekstur yang tipis</li></label></div>
+                <div class="inpt">
+                <input type="radio" class="rad" name="G12" value="0">Tidak tahu
+                <input type="radio" class="rad" name="G12" value="0.2">Tidak Yakin
+                <input type="radio" class="rad" name="G12" value="0.4"> Agak Yakin
+                <input type="radio" class="rad" name="G12" value="0.6">Cukup Yakin
+                <input type="radio" class="rad" name="G12" value="0.8">Yakin
+                <input type="radio" class="rad" name="G12" value="1">Sangat Yakin
+                </div>
+
+                <div class="lbl"><label for=""><li>Munculnya kerutan</li></label></div>
+                <div class="inpt">
+                <input type="radio" class="rad" name="G13" value="0" >Tidak tahu
+                <input type="radio" class="rad" name="G13" value="0.2">Tidak Yakin
+                <input type="radio" class="rad" name="G13" value="0.4"> Agak Yakin
+                <input type="radio" class="rad" name="G13" value="0.6">Cukup Yakin
+                <input type="radio" class="rad" name="G13" value="0.8">Yakin
+                <input type="radio" class="rad" name="G13" value="1">Sangat Yakin
+                </div>
+
+                <div class="lbl"><label for=""><li>Kulit berminyak sebagian</li></label></div>
+                <div class="inpt">
+                    <input type="radio" class="rad" name="G14" value="0">Tidak tahu
+                    <input type="radio" class="rad" name="G14" value="0.2">Tidak Yakin
+                    <input type="radio" class="rad" name="G14" value="0.4"> Agak Yakin
+                    <input type="radio" class="rad" name="G14" value="0.6">Cukup Yakin
+                    <input type="radio" class="rad" name="G14" value="0.8">Yakin
+                    <input type="radio" class="rad" name="G14" value="1">Sangat Yakin
+                </div>
+
+                <div class="lbl"><label for=""><li>Kulit kering sebagian</li></label></div>
+                <div class="inpt">
+                    <input type="radio" class="rad" name="G15" value="0">Tidak tahu
+                    <input type="radio" class="rad" name="G15" value="0.2">Tidak Yakin
+                    <input type="radio" class="rad" name="G15" value="0.4"> Agak Yakin
+                    <input type="radio" class="rad" name="G15" value="0.6">Cukup Yakin
+                    <input type="radio" class="rad" name="G15" value="0.8">Yakin
+                    <input type="radio" class="rad" name="G15" value="1">Sangat Yakin
+                </div>
+
+                <div class="lbl"><label for=""><li>Kulit kadang berjerawat</li></label></div>
+                <div class="inpt">
+                    <input type="radio" class="rad" name="G16" value="0">Tidak tahu
+                    <input type="radio" class="rad" name="G16" value="0.2">Tidak Yakin
+                    <input type="radio" class="rad" name="G16" value="0.4"> Agak Yakin
+                    <input type="radio" class="rad" name="G16" value="0.6">Cukup Yakin
+                    <input type="radio" class="rad" name="G16" value="0.8">Yakin
+                    <input type="radio" class="rad" name="G16" value="1">Sangat Yakin
+                </div>
+
+                <div class="lbl"><label for=""><li>Produk kosmetik susah menempel</li></label></div>
+                <div class="inpt">
+                    <input type="radio" class="rad" name="G17" value="0">Tidak tahu
+                    <input type="radio" class="rad" name="G17" value="0.2">Tidak Yakin
+                    <input type="radio" class="rad" name="G17" value="0.4"> Agak Yakin
+                    <input type="radio" class="rad" name="G17" value="0.6">Cukup Yakin
+                    <input type="radio" class="rad" name="G17" value="0.8">Yakin
+                    <input type="radio" class="rad" name="G17" value="1">Sangat Yakin
+                </div>
+
+                <div class="lbl"><label for=""><li>Kulit mudah alergi</li></label></div>
+                <div class="inpt">
+                    <input type="radio" class="rad" name="G18" value="0">Tidak tahu
+                    <input type="radio" class="rad" name="G18" value="0.2">Tidak Yakin
+                    <input type="radio" class="rad" name="G18" value="0.4"> Agak Yakin
+                    <input type="radio" class="rad" name="G18" value="0.6">Cukup Yakin
+                    <input type="radio" class="rad" name="G18" value="0.8">Yakin
+                    <input type="radio" class="rad" name="G18" value="1">Sangat Yakin
+                </div>
+
+                <div class="lbl"><label for=""><li>Kulit mudah iritasi</li></label></div>
+                <div class="inpt">
+                    <input type="radio" class="rad" name="G19" value="0">Tidak tahu
+                    <input type="radio" class="rad" name="G19" value="0.2">Tidak Yakin
+                    <input type="radio" class="rad" name="G19" value="0.4"> Agak Yakin
+                    <input type="radio" class="rad" name="G19" value="0.6">Cukup Yakin
+                    <input type="radio" class="rad" name="G19" value="0.8">Yakin
+                    <input type="radio" class="rad" name="G19" value="1">Sangat Yakin
+                </div>
+
+                <div class="lbl"><label for=""><li>Kulit kemerahan</li></label></div>
+                <div class="inpt">
+                    <input type="radio" class="rad" name="G20" value="0">Tidak tahu
+                    <input type="radio" class="rad" name="G20" value="0.2">Tidak Yakin
+                    <input type="radio" class="rad" name="G20" value="0.4"> Agak Yakin
+                    <input type="radio" class="rad" name="G20" value="0.6">Cukup Yakin
+                    <input type="radio" class="rad" name="G20" value="0.8">Yakin
+                    <input type="radio" class="rad" name="G20" value="1">Sangat Yakin
+                </div>
+            </div>
+            <br><br>
+            </ol>
+            
+            <button type="button" value="Submiit" class="submit-btn" onclick="validasiForm();">submit
+        </form>
+    </div>
+    <script src="app.js"></script>;
+</body>
+</html>
